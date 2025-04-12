@@ -204,21 +204,22 @@ nav a:hover {
     width: 100%;
   }
   
-  .send-btn {
+  .send-btn,.donate-btn {
     background: linear-gradient(to right, #007cf0, #00dfd8);
     color: #000;
     padding: 12px 30px;
     border: none;
-    border-radius: 40px;
+    border-radius: 10px;
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3s ease;
+    text-decoration: none;
   }
   
-  .send-btn:hover {
+  .donate-btn:hover ,.send-btn:hover {
     transform: scale(1.05);
-    background-position: right center;
+    background: linear-gradient(135deg, #00dfd8, #007cf0);
   }
   
   .status-msg {
@@ -505,4 +506,6 @@ nav a:hover {
   .social-icons a:hover {
     color: #00dfd8;
   }
+ 
+ 
   
